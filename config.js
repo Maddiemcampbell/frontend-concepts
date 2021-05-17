@@ -6,10 +6,8 @@ const config = {
     trailingSlash: false,
   },
   header: {
-    logo: 'https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/brand.svg',
-    logoLink: 'https://hasura.io/learn/',
     title:
-      "<a href='https://hasura.io/learn/'><img class='img-responsive' src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/learn-logo.svg' alt='Learn logo' /></a>",
+      "<a href='https://madelinecampbell.dev'><img class='img-responsive' src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/learn-logo.svg' alt='Learn logo' /></a>",
     githubUrl: 'https://github.com/hasura/gatsby-gitbook-boilerplate',
     helpUrl: '',
     tweetText: '',
@@ -44,11 +42,11 @@ const config = {
     collapsedNav: [
       '/codeblock', // add trailing slash if enabled above
     ],
-    links: [{ text: 'Hasura', link: 'https://hasura.io' }],
+    links: [{ text: 'Personal Portfolio', link: 'https://madelinecampbell.dev'}],
     frontline: false,
     ignoreIndex: true,
     title:
-      "<a href='https://hasura.io/learn/'>graphql </a><div class='greenCircle'></div><a href='https://hasura.io/learn/graphql/react/introduction/'>react</a>",
+      "<a href='https://hasura.io/learn/'>frontend </a><div class='greenCircle'></div><a href='https://hasura.io/learn/graphql/react/introduction/'>react</a>",
   },
   siteMetadata: {
     title: 'Gatsby Gitbook Boilerplate | Hasura',

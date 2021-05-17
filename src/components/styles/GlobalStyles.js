@@ -59,6 +59,9 @@ export const baseStyles = css`
   .displayInline {
     display: inline-block;
   }
+  .img-responsive {
+    width: 150px;
+  }
   .navBarToggle {
     border: 0px solid #fff;
     border-radius: 4px;
