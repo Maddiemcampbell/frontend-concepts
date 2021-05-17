@@ -37,14 +37,18 @@ const config = {
   sidebar: {
     forcedNavOrder: [
       '/introduction', // add trailing slash if enabled above
-      '/codeblock',
+      '/html',
+      '/css',
+      '/javascript',
+      '/react',
+      '/structures',
     ],
     collapsedNav: [
       '/codeblock', // add trailing slash if enabled above
     ],
     links: [{ text: 'Personal Portfolio', link: 'https://madelinecampbell.dev'}],
     frontline: false,
-    ignoreIndex: true,
+    ignoreIndex: false,
     title:
       "<a href='https://hasura.io/learn/'>frontend </a><div class='greenCircle'></div><a href='https://hasura.io/learn/graphql/react/introduction/'>react</a>",
   },
