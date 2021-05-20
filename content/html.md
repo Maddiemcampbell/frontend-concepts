@@ -34,4 +34,13 @@ When W3C, was introduced, browsers could not just start using them as doing so w
 
 Make sure you put the DOCTYPE right at the beginning of your HTML document. Anything before the DOCTYPE, like a comment or an XML declaration will trigger quirks mode in Internet Explorer 9 and older. The DOCTYPE as, ```<!DOCTYPE html>```, is the simplest possible, and the one recommended by HTML5. Earlier versions of the HTML standard recommended other variants, but all existing browsers today will use full standards mode for this DOCTYPE, even the dated Internet Explorer 6. 
 
+What does a DOCTYPE do?#
+DOCTYPE is an abbreviation for DOCument TYPE. A DOCTYPE is always associated to a DTD - for Document Type Definition.
+
+A DTD defines how documents of a certain type should be structured (i.e. a button can contain a span but not a div), whereas a DOCTYPE declares what DTD a document supposedly respects (i.e. this document respects the HTML DTD).
+
+For webpages, the DOCTYPE declaration is required. It is used to tell user agents what version of the HTML specifications your document respects. Once a user agent has recognized a correct DOCTYPE, it will trigger the no-quirks mode matching this DOCTYPE for reading the document. If a user agent doesn't recognize a correct DOCTYPE, it will trigger the quirks mode.
+
+The DOCTYPE declaration for the HTML5 standards is <!DOCTYPE html>.
+
 
